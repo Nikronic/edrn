@@ -1,0 +1,14 @@
+{
+    "problem_name": "SusBridgeS88",
+    "MATERIAL_PATH": "/HPS/deep_topopt/work/diff-voxelfem-optimization-problem/VoxelFEM/examples/materials/B9Creator.material",
+    "BC_PATH": "/HPS/deep_topopt/work/diff-voxelfem-optimization-problem/bcs/2d/suspended_bridge.bc",
+    "orderFEM": [1, 1],
+    "domainCorners": [[0, 0], [1, 1]],
+    "gridDimensions": [180, 180],
+    "E0": 1,
+    "Emin": 1e-9,
+    "SIMPExponent": 3,
+    "maxVolume": [0.075],
+    "adaptive_filtering": [125, 2, 1, 1, 1, 1],
+    "seed": 88
+}

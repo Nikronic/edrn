@@ -1,0 +1,8 @@
+Loading pretrained weight with experiment ID and path: ff/4655515/4655515.pt
+Testing pretrained model in: [256, 128, 64] 
+Interpolation: FalseWeights, scale, and B  loaded.
+VoxelFEM problem configs: {'problem_name': 'bridgeS88', 'MATERIAL_PATH': '/HPS/deep_topopt/work/diff-voxelfem-optimization-problem/VoxelFEM/examples/materials/B9Creator.material', 'BC_PATH': '/HPS/deep_topopt/work/topopt-fourfeat-3d/bcs/3d/bridge.bc', 'orderFEM': [1, 1, 1], 'domainCorners': [[0, 0, 0], [4, 2, 1]], 'gridDimensions': [80, 40, 20], 'E0': 1, 'Emin': 1e-09, 'SIMPExponent': 3, 'maxVolume': [0.4], 'adaptive_filtering': [1, 1, 1, 1, 1, 1], 'seed': 88}
+testPretrained-4655515_s2.5_256x128x64_Vol[0.4]_intpol-False_.vtr has been saved to logs/images/ff/4655515/.
+Test image saved to: logs/images/ff/4655515/
+Compliance loss of binary densities for "torch.Size([1, 256, 128, 64, 1])": 108857.8125, b-vol=0.3952360
+Compliance loss=47090.1875 and volume constraint=0.39367833733558655

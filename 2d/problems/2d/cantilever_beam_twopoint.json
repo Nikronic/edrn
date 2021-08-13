@@ -1,0 +1,14 @@
+{
+    "problem_name": "CanBeam2PS8",
+    "MATERIAL_PATH": "/HPS/deep_topopt/work/diff-voxelfem-optimization-problem/VoxelFEM/examples/materials/B9Creator.material",
+    "BC_PATH": "/HPS/deep_topopt/work/diff-voxelfem-optimization-problem/bcs/2d/cantilever_beam_twopoint.bc",
+    "orderFEM": [1, 1],
+    "domainCorners": [[0, 0], [4, 3]],
+    "gridDimensions": [560, 420],
+    "E0": 1,
+    "Emin": 1e-9,
+    "SIMPExponent": 3,
+    "maxVolume": [0.15],
+    "adaptive_filtering": [125, 2, 1, 1, 1, 1],
+    "seed": 8
+}
